@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--    NAMA  : SYAYFUL HIDAYAT-->
+    <!--    NIM   : 10120912-->
+
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/poppins_semibold</item>
+    </array>
+</resources>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--    Nama	: Syayful Hidayat-->
+<!--    NIM	    : 10120912-->
+<!--    Kelas	: AKB-UL 1-->
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/ivImage"
+            android:layout_marginTop="60dp"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/tvBiodata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="27sp"
+            android:fontFamily="@font/poppins_semibold"
+            android:textStyle="bold"
+            android:text="BIODATA SUPERHERO"/>
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ivImage"
+            android:layout_marginTop="16dp"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/poppins_semibold"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvName"
+            android:layout_centerHorizontal="true"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvPowerstats1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Powerstats"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/tvid"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvPowerstats2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvPowerstats1"
+            android:layout_marginTop="2dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvBiography1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Biography"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/tvPowerstats2"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/tvBiography2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvBiography1"
+            android:layout_marginTop="4dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvAppear1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Appearance"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/tvBiography2"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/tvAppear2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvAppear1"
+            android:layout_marginTop="4dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvWork1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Work"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/tvAppear2"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/tvWork2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvWork1"
+            android:layout_marginTop="4dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvConnect1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Connections"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/tvWork2"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/tvConnect2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvConnect1"
+            android:layout_marginTop="4dp"
+            android:textSize="16sp" />
+    </RelativeLayout>
+</ScrollView>
